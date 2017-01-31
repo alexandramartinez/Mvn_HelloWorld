@@ -13,16 +13,23 @@
         </dependency>
 
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.10</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>4.1.6.Final</version>
+            <groupId>org.springframeworkd</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>3.2.0.BUILD-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>spring-snapshot</id>
+            <name>Spring Maven SNAPSHOT Repository</name>
+            <url>http://repo.springsource.org/libs-snapshot</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </repository>
+    </repositories>
 </project>
